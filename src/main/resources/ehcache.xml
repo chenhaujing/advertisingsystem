@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+    <diskStore path="java.io.tmpdir/Tmp_EhCache"/>
+    <defaultCache eternal="false" maxElementsInMemory="10000" overflowToDisk="false" diskPersistent="false"
+                  timeToIdleSeconds="900" timeToLiveSeconds="1800" memoryStoreEvictionPolicy="LRU"/>
+
+    <cache name="areas" maxEntriesLocalHeap="3000" timeToLiveSeconds="86400"/>
+    <cache name="users" maxEntriesLocalHeap="200" timeToLiveSeconds="18000"/>
+    <cache name="roles" maxEntriesLocalHeap="200" timeToLiveSeconds="18000"/>
+    <cache name="customers" maxEntriesLocalHeap="200" timeToLiveSeconds="18000"/>
+</ehcache>
